@@ -68,10 +68,10 @@ const hiddenQuestion = query => new Promise((resolve, reject) => {
     const eos = Eos.Localnet({})
     const Transaction = eos.fc.structs.transaction
 
-	const buf = Fcbuffer.toBuffer(Transaction, transaction)
-	const chain_id_buf = new Buffer(chain_id, 'hex')
-	const sign_buf = Buffer.concat([chain_id_buf, buf, new Buffer(new Uint8Array(32))])
-	const sig = ecc.sign(sign_buf, pvt)
+	  const buf = Fcbuffer.toBuffer(Transaction, transaction)
+	  const chain_id_buf = new Buffer(chain_id, 'hex')
+	  const sign_buf = Buffer.concat([chain_id_buf, buf, new Buffer(new Uint8Array(32))])
+	  const sig = ecc.sign(sign_buf, pvt)
 
     const output = {
     	compression: 'none',
