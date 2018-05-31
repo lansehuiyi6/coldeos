@@ -107,7 +107,7 @@ We again need to pass in the `httpEndpoint` as an argument. E.g.:
 node coldeos/push.js http://127.0.0.1:8888 sv.txt
 ```
 
-### Conclusion
+## Conclusion
 If all of these commands succeed, you will have broadcast a transaction to the network.
 If any of the commands fail, an error will be printed to the screen. In case of an error, try to figure out what went
 wrong. If suitable, file a bug.
