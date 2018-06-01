@@ -15,13 +15,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Disclaimer Part 2
-
-Really, I am a software engineer but am definitely not a security expert. This software is intended as a reference point only.
-I genuinely cannot guarantee that this method is secure against any or all threats and/or attacks.
-You should only use this code as a reference if you are able to fully understand it, check it for bugs,
-and take responsibility for keeping your private keys and other property secure.
-
 ## Installation
 
 First, check that you have `node` and `npm` installed, or else install them at https://nodejs.org:
